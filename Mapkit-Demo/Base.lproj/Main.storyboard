@@ -50,6 +50,51 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="93.75"/>
         </scene>
+        <!--Location Detail View Controller-->
+        <scene sceneID="ILg-GK-Cro">
+            <objects>
+                <viewController storyboardIdentifier="LocationDetailViewController" id="UMe-d0-82X" customClass="LocationDetailViewController" customModule="Mapkit_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eko-GT-59t">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uYD-bv-fLb">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="yfC-Tu-9xr">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tns-iL-oXL">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="313.5"/>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="tns-iL-oXL" firstAttribute="height" secondItem="yfC-Tu-9xr" secondAttribute="height" multiplier="0.35" id="0IL-QZ-D3S"/>
+                                        <constraint firstAttribute="trailing" secondItem="tns-iL-oXL" secondAttribute="trailing" id="R4I-IP-fnS"/>
+                                        <constraint firstItem="tns-iL-oXL" firstAttribute="leading" secondItem="yfC-Tu-9xr" secondAttribute="leading" id="Vbg-Uz-xRn"/>
+                                        <constraint firstItem="tns-iL-oXL" firstAttribute="top" secondItem="yfC-Tu-9xr" secondAttribute="top" id="iBu-IA-hAy"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="regular"/>
+                            </visualEffectView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="rPw-5B-YqH"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="uYD-bv-fLb" firstAttribute="top" secondItem="eko-GT-59t" secondAttribute="top" id="J2l-yf-5sE"/>
+                            <constraint firstAttribute="bottom" secondItem="uYD-bv-fLb" secondAttribute="bottom" id="KqB-eW-Ngy"/>
+                            <constraint firstItem="uYD-bv-fLb" firstAttribute="leading" secondItem="rPw-5B-YqH" secondAttribute="leading" id="cRD-1O-Rb0"/>
+                            <constraint firstItem="rPw-5B-YqH" firstAttribute="trailing" secondItem="uYD-bv-fLb" secondAttribute="trailing" id="gY3-Om-B5R"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="tns-iL-oXL" id="qf2-Zf-zhk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bXI-uw-s5O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="863.768115942029" y="93.75"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">

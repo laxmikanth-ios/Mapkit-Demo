@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		282A1F9E29304F5600F89E19 /* LocationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282A1F9D29304F5600F89E19 /* LocationDetailViewController.swift */; };
 		28EA97C6292FC918008E8B0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EA97C5292FC918008E8B0F /* AppDelegate.swift */; };
 		28EA97C8292FC918008E8B0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EA97C7292FC918008E8B0F /* SceneDelegate.swift */; };
 		28EA97CA292FC918008E8B0F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EA97C9292FC918008E8B0F /* MapViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		282A1F9D29304F5600F89E19 /* LocationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailViewController.swift; sourceTree = "<group>"; };
 		28EA97C2292FC918008E8B0F /* Mapkit-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mapkit-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28EA97C5292FC918008E8B0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28EA97C7292FC918008E8B0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				28EA97C7292FC918008E8B0F /* SceneDelegate.swift */,
 				28EA97C9292FC918008E8B0F /* MapViewController.swift */,
 				28EA97D9292FC9AB008E8B0F /* CoreLocationService.swift */,
+				282A1F9D29304F5600F89E19 /* LocationDetailViewController.swift */,
 				28EA97CB292FC918008E8B0F /* Main.storyboard */,
 				28EA97CE292FC91C008E8B0F /* Assets.xcassets */,
 				28EA97D0292FC91C008E8B0F /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				28EA97C6292FC918008E8B0F /* AppDelegate.swift in Sources */,
 				28EA97C8292FC918008E8B0F /* SceneDelegate.swift in Sources */,
 				28EA97DA292FC9AB008E8B0F /* CoreLocationService.swift in Sources */,
+				282A1F9E29304F5600F89E19 /* LocationDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
